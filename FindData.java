@@ -16,9 +16,11 @@ import java.util.Set;
 public class FindData {
 
 	static int num=0;
-	static int qnsts3[]= {2,7,9,12,10,16,51};
-	static int qnsts2[]= {2,5,6,8,10,51};
-	static int a[]=qnsts2;
+	static int qnsts3[]= {2,5,7,8,9,10,12,16,51};
+	static int qnsts2[]= {1,2,3,4,5,6,8,10,11,51};
+	static int dqnsts3[]= {2,5,8,7,9,10,12,16,51};
+	static int dqnsts4[]= {2,5,6,8,10,51};
+	static int a[]=dqnsts4;
 	public void hang(List list,Set set,String url) {
 		File file=new File(url);
 		try {
